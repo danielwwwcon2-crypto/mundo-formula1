@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mundo Fórmula 1</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+}
+
+/* ENCABEZADO */
+
+header {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+/* MENU */
+
+nav {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: #e00000;
+    border-radius: 5px;
+}
+
+/* IMAGEN DE FONDO */
+
+.inicio {
+    background: linear-gradient(
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.55)
+    );
+
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.inicio h2 {
+    font-size: 45px;
+}
+
+.inicio p {
+    font-size: 20px;
+}
+
+/* BOTONES */
+
+.boton {
+   background-color: rgba(0, 0, 0, 0.65);
+    padding: 13px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.boton:hover {
+    background: #900000;
+}
+
+/* SECCIONES */
+
+section {
+    padding: 45px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #ff3333;
+    font-size: 30px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tarjeta {
+    background: rgba(0, 0, 0, 0.75);   
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tarjeta img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* VIDEO */
+
+video {
+    width: 80%;
+    max-width: 700px;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+    background: #050505;
+    padding: 25px;
+    text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>MUNDO FÓRMULA 1</h1>
+    <p>Velocidad, emoción y adrenalina</p>
+</header>
+
+<nav>
+    <a href="index.html">INICIO</a>
+
+    <a href="noticias.html" target="_blank">NOTICIAS</a>
+
+    <a href="pilotos.html" target="_blank">PILOTOS</a>
+
+    <a href="eventos.html" target="_blank">EVENTOS</a>
+
+    <a href="videos.html" target="_blank">VIDEOS</a>
+
+    <a href="contacto.html" target="_blank">CONTÁCTANOS</a>
+</nav>
+
+<div class="inicio">
+
+    <h2>BIENVENIDOS A LA FÓRMULA 1</h2>
+
+    <p>
+    Descubre las últimas novedades del mundo
+    del automovilismo.
+    </p>
+
+    <a href="noticias.html" target="_blank"
+    class="boton">VER NOTICIAS</a>
+
+</div>
+
+<section>
+
+    <h2>ÚLTIMAS NOVEDADES</h2>
+
+    <p>
+    Mantente informado sobre todo lo que sucede
+    en el campeonato mundial de Fórmula 1.
+    </p>
+
+    <a href="noticias.html" target="_blank"
+    class="boton">LEER NOTICIAS</a>
+
+</section>
+
+<section>
+
+    <h2>PILOTOS Y EQUIPOS</h2>
+
+    <p>
+    Conoce los pilotos y las escuderías
+    que compiten en la Fórmula 1.
+    </p>
+
+    <a href="pilotos.html" target="_blank"
+    class="boton">CONOCER PILOTOS</a>
+
+</section>
+
+<section>
+
+    <h2>PRÓXIMOS EVENTOS</h2>
+
+    <p>
+    Consulta las carreras y los grandes premios
+    del campeonato.
+    </p>
+
+    <a href="eventos.html" target="_blank"
+    class="boton">VER EVENTOS</a>
+
+</section>
+
+<section>
+
+    <h2>VIDEOS DE FÓRMULA 1</h2>
+
+    <p>Disfruta de contenido audiovisual.</p>
+
+    <a href="videos.html" target="_blank"
+    class="boton">VER VIDEOS</a>
+
+</section>
+
+<section>
+
+    <h2>CONTÁCTANOS</h2>
+
+    <p>
+    ¿Tienes alguna pregunta o sugerencia?
+    Comunícate con nosotros.
+    </p>
+
+    <a href="contacto.html" target="_blank"
+    class="boton">CONTACTAR</a>
+
+</section>
+
+<footer>
+
+    <p>© 2026 Mundo Fórmula 1</p>
+
+    <p>Todos los derechos reservados.</p>
+
+</footer>
+
+</body>
+</html>
